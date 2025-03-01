@@ -1,0 +1,29 @@
+.footer{
+    position: relative;
+    height: 40vh;
+    background-color: rgb(28,41,48);
+    bottom: 0px;
+    display: flex;
+}
+
+
+.socialMedia>img{
+    width:25px;
+}
+
+.socialMedia{
+    justify-content: left;
+    display: flex;
+    height: 45px;
+}
+
+.column{
+    justify-content: left;
+    width: 30%;
+    height: 90%;
+}
+
+h3, p{
+    float: left;
+    color: white;
+}
