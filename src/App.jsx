@@ -6,10 +6,11 @@ import About from './pages/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import FlightSearchForm from './pages/FlightSearch'
 import './App.css'
 import Resgister from './pages/Resgister'
+import HotelDetail from './pages/HotelDetail'
+import BusShuttleForm from './pages/BusShuttle'
 function App() {
 
   return (
@@ -22,6 +23,9 @@ function App() {
           <Route path='/adminlogin' element={<AdminLogin/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/register' element={<Resgister/>}/>
+          <Route path='/hotel/:id' element={<HotelDetail/>}/>
+          <Route path='/flysearch' element={<FlightSearchForm/>}/>
+          <Route path='/bus' element={<BusShuttleForm/>}/>
         </Routes>
         </div>
       <Footer></Footer>
