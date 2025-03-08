@@ -45,6 +45,7 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
+                <Row className="text-center mt-4 p-3 text-white"> <hr />&copy; 2024 Travel App. All Rights Reserved.</Row>
             </Container>
         </footer>
     );
