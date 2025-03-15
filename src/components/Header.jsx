@@ -16,8 +16,8 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link as={NavLink} to="/" className="text-white">Trang chủ</Nav.Link>
-                            <Nav.Link as={NavLink} to="#" className="text-white">Vé máy bay</Nav.Link>
-                            <Nav.Link as={NavLink} to="#" className="text-white">Vé xe khách</Nav.Link>
+                            <Nav.Link as={NavLink} to="/flysearch" className="text-white">Vé máy bay</Nav.Link>
+                            <Nav.Link as={NavLink} to="bus" className="text-white">Vé xe khách</Nav.Link>
                             <Nav.Link as={NavLink} to="/contact" className="text-white">Liên hệ</Nav.Link>
                             <Nav.Link as={NavLink} to="/about" className="text-white">About</Nav.Link>
                         </Nav>
